@@ -2,7 +2,7 @@ package JavaFX;
 
 
 import javafx.scene.Scene;
-import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
@@ -12,13 +12,13 @@ import javafx.stage.Stage;
  * Kui hiir ringile vastu läheb, muutub ring roheliseks.
  * Kordan - ring muudab värvi juba hiire puudutusest, mitte klikist.
  */
-public class FooridUnenaos {
-    Pane pane;
-    public FooridUnenaos() {meetod();}
+class FooridUnenaos {
 
+    FooridUnenaos() {meetod();}
+        StackPane pane;
     public void meetod(){
         Stage stage = new Stage();
-        Pane pane = new Pane();
+        StackPane  pane = new StackPane();
         Scene scene = new Scene(pane, 500, 500);
 
         for (int i = 0; i < 100; i++) {
