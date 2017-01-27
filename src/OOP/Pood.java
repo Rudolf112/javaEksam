@@ -8,7 +8,7 @@ package OOP;
  *
  * Jep, sama ülesanne oli ka proovieksamis.
  */
-public class Pood {
+/*public class Pood {
 
     public static void main(String[] args) {
 
@@ -28,3 +28,4 @@ public class Pood {
         kassa.prindiKassapidajaNimi();
     }
 }
+**/

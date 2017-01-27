@@ -7,7 +7,7 @@ import java.util.Arrays;
  *
  * Raamatukogu klassi ei tohi muuta.
  */
-public class Raamatukogu {
+/*public class Raamatukogu {
     public static void main(String[] args) {
 
         String raamatuKeel = "Eesti";
@@ -31,3 +31,4 @@ public class Raamatukogu {
 
     }
 }
+*/

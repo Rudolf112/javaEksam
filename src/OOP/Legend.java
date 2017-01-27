@@ -7,7 +7,7 @@ package OOP;
  * 1. Legend klassi muuta ei tohi.
  * 2. Zelda kaotab nii palju elusid kui kollil elusid on.
  */
-public class Legend {
+/*public class Legend {
     public static void main(String[] args) {
         int kollilElusid;
 
@@ -26,3 +26,4 @@ public class Legend {
 
     }
 }
+*/
