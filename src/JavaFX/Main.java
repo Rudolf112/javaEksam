@@ -13,7 +13,7 @@ public class Main extends Application {
         //new Detektiiv();
         //new Ring();
         //new Ristkulik();
-        //new FooridUnenaos();
-        new Tagaajamine();
+        new FooridUnenaos();
+        //new Tagaajamine();
     }
 }

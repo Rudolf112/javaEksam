@@ -17,25 +17,33 @@ class FooridUnenaos {
     Pane pane;
     Circle ring;
 
-    FooridUnenaos() {meetod();}
+    FooridUnenaos() {
+        meetod();
+    }
 
-    public void meetod(){
+    public void meetod() {
         Stage stage = new Stage();
         pane = new Pane();
         Scene scene = new Scene(pane, 500, 500);
 
         for (int i = 0; i < 100; i++) {
             joonistaRing();
+            ring.setOnMouseMoved(event -> {
+                Circle ring = (Circle) event.getTarget();
+                if (ring.getId().equals("ring")) {
+                    ring.setFill(Color.GREEN);
+                }
+            });
         }
         stage.setScene(scene);
         stage.show();
-        ring.setOnMouseMoved( event -> {if (ring.getId()=="ring"){ring.setFill(Color.GREEN);}});
 
     }
-    public void joonistaRing(){
+
+    public void joonistaRing() {
         ring = new Circle();
-        ring.setCenterX(Math.random()*500);
-        ring.setCenterY(Math.random()*500);
+        ring.setCenterX(Math.random() * 500);
+        ring.setCenterY(Math.random() * 500);
         ring.setRadius(30);
         ring.setFill(Color.RED);
         ring.setId("ring");
