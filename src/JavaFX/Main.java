@@ -16,6 +16,6 @@ public class Main extends Application {
         //new FooridUnenaos();
         //new Tagaajamine();
         //new Koristaja();
-        new PixelChaser();
+        //new PixelChaser();
     }
 }
