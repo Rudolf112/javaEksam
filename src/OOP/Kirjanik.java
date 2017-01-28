@@ -8,9 +8,9 @@ package OOP;
  * 2. Kui pastakas kirjutab siis tuleb tekst konsooli - kuni tinti jätkub.
  * 3. Iga täht kulutab ühe ühiku.
  */
-/*public class Kirjanik {
+public class Kirjanik {
     public static void main(String[] args) {
-        int tindiKogus = 60;
+        int tindiKogus = 70;
 
         Pastakas pastakas = new Pastakas(tindiKogus);
 
@@ -22,4 +22,3 @@ package OOP;
 
     }
 }
-*/
