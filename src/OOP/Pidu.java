@@ -1,15 +1,15 @@
 package OOP;
 
 /**
- * Peole on kutsutud rohkem inimesi kui korterisse mahub. Sinu ülesanne on Korteri
+ * Peole on kutsutud rohkem inimesi, kui korterisse mahub. Sinu ülesanne on Korteri
  * objekt ehitada nii, et üleliigsetest keelduda saaks.
  *
  * Reeglid
  * 1. Pidu klassi muuta ei tohi.
  * 2. Maja maksimum on 10 inimest.
- * 3. Kui Korter on täis siis on täis. Rohkem juurde ei saa
+ * 3. Kui Korter on täis, siis on täis. Rohkem juurde ei saa.
  */
-/*public class Pidu {
+public class Pidu {
     public static void main(String[] args) {
 
         int mahutab = 10;
@@ -40,4 +40,3 @@ package OOP;
         korter.prindiKylalisteArv(); // peaks olema 9, järjekorda ei ole.
     }
 }
-*/
