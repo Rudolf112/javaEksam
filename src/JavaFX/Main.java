@@ -15,6 +15,7 @@ public class Main extends Application {
         //new Ristkulik();
         //new FooridUnenaos();
         //new Tagaajamine();
-        new Koristaja();
+        //new Koristaja();
+        new PixelChaser();
     }
 }
